@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+
+}
+
+.logo {
+    width: 20%;
+}
+
+.navbar-nav a {
+    margin: 40px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #F0A500;
+}
+
+.navbar-nav a:hover {
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.banner img {
+
+    width: 100%;
+    height: 100vh;
+}
+
+/* About section */
+#about {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 50px;
+    color: #F0A500;
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+
+}
+
+p {
+    width: 50%;
+    color: aliceblue;
+    margin-left: 27%;
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.about img {
+    width: 100%;
+    height: 70%;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #fff;
+    margin-bottom: 30%;
+}
+
+.about {
+    flex-basis: 33.3%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 30%;
+
+}
+
+.overlay {
+    width: 84%;
+    height: 86%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #adb5bd);
+    opacity: 0;
+    transition: 1s;
+}
+
+.about:hover .overlay {
+    opacity: 1;
+}
+
+.desc {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+
+.desc p {
+    font-size: 14px;
+}
+
+.about:hover .desc {
+    bottom: 40%;
+    opacity: 1;
+}
+
+/* Artist Section */
+#artist {
+    padding: 7% 10% 3% 10%;
+}
+
+.artist img {
+    width: 35%;
+    height: 80%;
+    margin: 50px;
+    float: left;
+    margin: 50px 100px 50px 50px;
+
+}
+
+.artist h3 {
+
+    margin-top: 47px;
+    color: #F0A500;
+
+}
+
+.artist p {
+    margin-right: 50px;
+}
+
+.btn {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: -moz-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: -ms-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: -o-linear-gradient(top, #ffffff, #b8b8b8);
+    background-image: linear-gradient(to bottom, #ffffff, #b8b8b8);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Georgia;
+    color: #0d0d0c;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-top: 27px;
+}
+
+.btn:hover {
+    background: #2c2b2b;
+    text-decoration: none;
+    color: #0d0d0c;
+}
+
+hr {
+    margin: 1rem 0;
+    color: #ffffff;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: 0.25;
+}
+/* Gallery Section */
+#gallery{
+    padding: 3% 8%;
+}
+.workgalleryimages img {
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* Contact Us Section*/
+#contact {
+    padding:0 8% 3%;
+}
+
+.contactus {
+    margin-top: 30px;
+}
+
+.contactus p {
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    margin-left: 5px;
+
+}
+
+h1 {
+    color: #F0A500;
+    font-weight: bold;
+}
+
+h5 {
+    width: 70%;
+    font-size: 1.0rem;
+    color: #f9956a;
+}
+
+.title {
+    margin-top: 30px;
+}
+
+.form-control {
+    width: 40%;
+    float: left;
+    margin-right: 50px;
+}
+
+select {
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 18px;
+    background: #949596;
+    padding: 10px 26px 10px 26px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #b2b2b2;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* google map */
+#map{
+    margin: 10% 0 5%;
+    text-align: center;
+}
+#map iframe{
+    width: 800px;
+    height: 400px;
+}
+
+/* Footer */
+#footer {
+    padding: 3% 10%;
+    text-align: center;
+    background-color: #5a585a;
+}
+
+#footer img {
+    width: 33px;
+    height: 33px;
+    margin-bottom: 20px;
+}
+
+#footer .social-icon {
+    margin: 20px 15px;
+    color: white;
+}
+
+.footer-info p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar-toggler{
+    border:3px solid rgba(208, 208, 208, 0.65);
+}
